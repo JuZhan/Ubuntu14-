@@ -15,12 +15,12 @@ sudo apt-get install nautilus-open-terminal
 1. 安装插件 `Remote Workspace`
 2. 写个配置文件，后缀名 `.code-workspace`
 3. 格式如下：
-    ```
-    {
-        "folders": [{
-            "uri": "sftp://my-user:my-password@my_server.example.com:my_folder_path",
-            "name": "Whatever"
-        }]
-    }
-    ```
+```
+{
+    "folders": [{
+        "uri": "sftp://my-user:my-password@my_server.example.com:my_folder_path",
+        "name": "Whatever"
+    }]
+}
+```
 4. `File` -> `Open Workspace` 打开这 `code-workspace` 文件就可以了
