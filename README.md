@@ -24,3 +24,28 @@ sudo apt-get install nautilus-open-terminal
 }
 ```
 4. `File` -> `Open Workspace` 打开这 `code-workspace` 文件就可以了
+
+### git最新版本
+```
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get install git
+```
+
+### pip安装最新
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py 
+sudo python get-pip.py
+```
+
+### pip 的阿里源
+在 ~/.pip/pip.conf
+```
+[global]
+index-url = http://mirrors.aliyun.com/pypi/simple/                          
+[install]
+trusted-host=mirrors.aliyun.com
+```
+
+### python 2.7 对应的ipython最高版
+`ipython 5.x.x`
+比如： `sudo pip install ipython==5.3.0`
