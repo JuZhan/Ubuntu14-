@@ -38,7 +38,7 @@ sudo python get-pip.py
 ```
 
 ### pip 的阿里源
-在 ~/.pip/pip.conf
+在 `~/.pip/pip.conf`
 ```
 [global]
 index-url = http://mirrors.aliyun.com/pypi/simple/                          
@@ -47,5 +47,4 @@ trusted-host=mirrors.aliyun.com
 ```
 
 ### python 2.7 对应的ipython最高版
-`ipython 5.x.x`
-比如： `sudo pip install ipython==5.3.0`
+一般是 `ipython 5.x.x`，比如： `sudo pip install ipython==5.3.0`
