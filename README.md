@@ -48,3 +48,8 @@ trusted-host=mirrors.aliyun.com
 
 ### python 2.7 对应的ipython最高版
 一般是 `ipython 5.x.x`，比如： `sudo pip install ipython==5.3.0`
+
+### ubuntu的字体
+`sudo apt-get install ttf-wqy-microhei  #文泉驿-微米黑`
+
+
