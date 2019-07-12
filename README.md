@@ -52,4 +52,5 @@ trusted-host=mirrors.aliyun.com
 ### ubuntu的字体
 `sudo apt-get install ttf-wqy-microhei  #文泉驿-微米黑`
 
-
+### ubuntu美化
+> https://blog.csdn.net/ghty520/article/details/79524623
