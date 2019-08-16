@@ -54,3 +54,6 @@ trusted-host=mirrors.aliyun.com
 
 ### ubuntu美化
 > https://blog.csdn.net/ghty520/article/details/79524623
+
+### 截图与录制视频
+`sudo apt-get install kazam`
