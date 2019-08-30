@@ -11,7 +11,7 @@ sudo apt-get install nautilus-open-terminal
 
 格式比如：`sftp://172.31.233.78/home/juzhan`
 
-### vscode远程写代码
+### vscode远程写代码 (时代变了，直接官方remote插件)
 1. 安装插件 `Remote Workspace`
 2. 写个配置文件，后缀名 `.code-workspace`
 3. 格式如下：
