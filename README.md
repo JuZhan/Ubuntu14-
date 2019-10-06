@@ -57,3 +57,7 @@ trusted-host=mirrors.aliyun.com
 
 ### 截图与录制视频
 `sudo apt-get install kazam`
+
+### 安全更新cmake到3.0以上版本
+> https://blog.csdn.net/love1055259415/article/details/79875113
+
