@@ -61,3 +61,5 @@ trusted-host=mirrors.aliyun.com
 ### 安全更新cmake到3.0以上版本
 > https://blog.csdn.net/love1055259415/article/details/79875113
 
+### pytorch的cuda8.0安装
+`sudo pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp27-cp27mn-linux_x86_64.whl`
