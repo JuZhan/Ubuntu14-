@@ -62,5 +62,7 @@ trusted-host=mirrors.aliyun.com
 > https://blog.csdn.net/love1055259415/article/details/79875113
 
 ### pytorch的cuda8.0，python2.7安装
-`sudo pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp27-cp27mu-linux_x86_64.whl`
-`pip install http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp27-none-linux_x86_64.whl`
+```
+sudo pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp27-cp27mu-linux_x86_64.whl
+or > pip install http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp27-none-linux_x86_64.whl
+```
