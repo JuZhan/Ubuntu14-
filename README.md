@@ -60,6 +60,8 @@ trusted-host=mirrors.aliyun.com
 
 ### 安全更新cmake到3.0以上版本
 > https://blog.csdn.net/love1055259415/article/details/79875113
+> https://zhuanlan.zhihu.com/p/93480024
+> 完美的一句：`sudo pip install --upgrade cmake==3.13.2`
 
 ### pytorch的cuda8.0，python2.7安装
 ```
