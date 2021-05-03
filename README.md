@@ -70,8 +70,15 @@ trusted-host=mirrors.aliyun.com
 sudo pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp27-cp27mu-linux_x86_64.whl
 or > pip install http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp27-none-linux_x86_64.whl
 ```
+### blender 2.79的python
+> 是系统内自带的python 3.6，所以安装第三方库和pip都是python3.6上进行的
 
-### OpenEXR 安装问题（为了在blender里面安装bpycv遇见的）
+### gazebo的坑
+> 自定义模型的mesh路径必须是 file:// 开头，model:// 开头的是默认路径
+> gazebo似乎会对默认路径下的模型几何体有初始化到缓存什么的，创建后有碰撞体积
+> 但是自己导入的模型如果也是model://开头，就没有碰撞体积了
+
+### OpenEXR 安装问题（为了在blender里面安装bpycv遇见的）[2021.05.03更新：好像官方用了新的方法安装bpycv，更简单了]
 
 + 情况一：没有“Python.h”，参考bpycv的链接。
 + 情况二：没有“pyconfig.h”，找现有的python环境里面，include文件夹下复制一份。
