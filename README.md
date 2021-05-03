@@ -46,6 +46,18 @@ index-url = http://mirrors.aliyun.com/pypi/simple/
 trusted-host=mirrors.aliyun.com
 ```
 
+### conda的清华源
+在`~/.condarc`
+```
+channels:
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
+show_channel_urls: true
+```
+
 ### python 2.7 对应的ipython最高版
 一般是 `ipython 5.x.x`，比如： `sudo pip install ipython==5.3.0`
 
@@ -75,7 +87,9 @@ or > pip install http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp27-no
 
 ### gazebo的坑
 > 自定义模型的mesh路径必须是 file:// 开头，model:// 开头的是默认路径
+> 
 > gazebo似乎会对默认路径下的模型几何体有初始化到缓存什么的，创建后有碰撞体积
+> 
 > 但是自己导入的模型如果也是model://开头，就没有碰撞体积了
 
 ### OpenEXR 安装问题（为了在blender里面安装bpycv遇见的）[2021.05.03更新：好像官方用了新的方法安装bpycv，更简单了]
