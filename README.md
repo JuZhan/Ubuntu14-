@@ -74,7 +74,19 @@ show_channel_urls: true
 > https://blog.csdn.net/love1055259415/article/details/79875113
 > 
 > https://zhuanlan.zhihu.com/p/93480024
-> 
+>
+
+> https://askubuntu.com/questions/829310/how-to-upgrade-cmake-in-ubuntu
+
+```
+In the new version of cmake (ex: 3.9.6), to install, download tar file from https://cmake.org/download/. Extract the downloaded tar file and then:
+
+cd $CMAKE_DOWNLOAD_PATH
+./configure
+make
+sudo make install
+```
+
 > 完美的一句：`sudo pip install --upgrade cmake==3.13.2`
 
 ### pytorch的cuda8.0，python2.7安装
