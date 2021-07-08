@@ -109,3 +109,11 @@ or > pip install http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp27-no
 + 情况一：没有“Python.h”，参考bpycv的链接。
 + 情况二：没有“pyconfig.h”，找现有的python环境里面，include文件夹下复制一份。
 + 情况三：没有“ImathBox.h”，得自己手动安装openexrpython，前往这里，找到对应的版本下载https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+### E-pick
+> http://wiki.ros.org/robotiq
+> 
+> https://github.com/ros-industrial/robotiq
+>
+> https://github.com/ros-industrial/robotiq/pull/175/files
+
