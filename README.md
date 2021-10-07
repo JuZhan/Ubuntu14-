@@ -117,3 +117,7 @@ or > pip install http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp27-no
 >
 > https://github.com/ros-industrial/robotiq/pull/175/files
 
+### Failed to connect to github.com port 443
+```
+git config --global --unset http.proxy
+```
