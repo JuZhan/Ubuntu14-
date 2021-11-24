@@ -121,3 +121,10 @@ or > pip install http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp27-no
 ```
 git config --global --unset http.proxy
 ```
+
+### yntax error near unexpected token `$'\r''
+> https://blog.csdn.net/xzm5708796/article/details/88344074
+
+1. sed -i 's/\r//g' javaInstall.sh
+
+2. 其实呢是没有把shell脚本转换成Unix，还有一种解决办法：vim xxxx.sh 输入 : set ff=unix 然后回车保存返回 :wq 再执行sh xxxx.sh即可
