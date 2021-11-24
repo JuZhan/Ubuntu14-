@@ -128,3 +128,6 @@ git config --global --unset http.proxy
 1. sed -i 's/\r//g' javaInstall.sh
 
 2. 其实呢是没有把shell脚本转换成Unix，还有一种解决办法：vim xxxx.sh 输入 : set ff=unix 然后回车保存返回 :wq 再执行sh xxxx.sh即可
+
+### clone fail
+`github.com.cnpmjs.org`
