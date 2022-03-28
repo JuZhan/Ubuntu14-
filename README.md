@@ -131,3 +131,8 @@ git config --global --unset http.proxy
 
 ### clone fail
 `github.com.cnpmjs.org`
+
+### ubuntu18 python3.7 下的python-pcl
+
+代价是与ros冲突
+> https://github.com/strawlab/python-pcl/issues/317
