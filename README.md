@@ -136,3 +136,31 @@ git config --global --unset http.proxy
 
 代价是与ros冲突
 > https://github.com/strawlab/python-pcl/issues/317
+
+### unbuntu20 docker 安装unityhub
+
+> https://github.com/danchitnis/container-xrdp/issues/4
+
+主要问题是安装的时候没有chrome-sandbox，然后基于chrome的一系列软件，在xface里面开不了
+
+比如要执行 google-chrome，必须后面加上 google-chrome --no-sandbox，vscode那些应该也一样。
+
+unityhub也一样，不过它也可以修改文件来设置为默认的，就是安装后到 /opt/unityhub，里面有个unityhub文件，打开文件后，最后那个==0修改为：
+
+```
+$UNPRIVILEGED_USERNS_ENABLED == 1
+```
+
+这样改完就可以不用输入 --no-sandbox 了
+
+记得把chrome卸载了，别影响后面启动的时候找默认浏览器。现在继续执行还有个报错，就是没有 va_getDriverName() 啥的，这个是缺了 nvidia_drv_video.so，
+
+```
+sudo apt install vdpau-va-driver # nvidia
+sudo apt install vainfo
+
+vim ~/.bashrc
+export LIBVA_DRIVER_NAME=nvidia
+export LIBVA_DRIVERS_PATH=/usr/lib/x86_64-linux-gnu/dri
+```
+这下应该就能正常跑unityhub了。
