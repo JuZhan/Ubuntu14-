@@ -58,6 +58,9 @@ channels:
 show_channel_urls: true
 ```
 
+### ubuntu的清华源
+> https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
+
 ### python 2.7 对应的ipython最高版
 一般是 `ipython 5.x.x`，比如： `sudo pip install ipython==5.3.0`
 
