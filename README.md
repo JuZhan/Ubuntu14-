@@ -167,3 +167,7 @@ export LIBVA_DRIVER_NAME=nvidia
 export LIBVA_DRIVERS_PATH=/usr/lib/x86_64-linux-gnu/dri
 ```
 这下应该就能正常跑unityhub了。
+
+### Kinect DK
+
+> https://blog.csdn.net/zxxxiazai/article/details/108152376
